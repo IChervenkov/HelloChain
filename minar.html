@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./Materalia/image/blockchain_logo.png" type="image/png">
+  <link rel="stylesheet" href="css/webslides.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/moveNetwork.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/createBlock.js"></script>
+  <title>Крипто потребител</title>
+</head>
+
+<body>
+
+  <main class="main">
+    <article id="webslides" class="horizontal">
+
+      <!-- Slide 1 -->
+
+      <section style="text-align: center; padding-bottom: 500px;">
+
+        <!-- Navigation bar 1 -->
+
+        <header role="banner">
+          <nav class="aligncenter">
+            <ul>
+
+              <li>
+                <a href="./input.html" rel="external" title="Начална страница">
+                  <img src="./Materalia/image/home_icon.png"> </img>
+                </a>
+              </li>
+
+              <li>
+                <a href="./choiseRole.html" rel="external" title="Избери роля">
+                  <img src="./Materalia/image/role_icon.png"> </img>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript: void(0);" rel="external" id="myBtn" title="Информация">
+                  <img src="./Materalia/image/information_icon.png"> </img>
+                </a>
+
+                <div id="myModal" class="modal">
+
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">Информация за страницата
+                    </h2>
+                    <p style="padding-left: 30px;">Текст за описание на помощ</p>
+                  </div>
+
+                </div>
+
+              </li>
+
+            </ul>
+          </nav>
+        </header>
+
+        <!-- Main part for section 1 -->
+
+        <h1 style="padding-bottom: 30px;">Отваряне на нов блок</h1>
+        <p>За да отворите нов блок е достатъчно да натиснете върху бутонът "+", както е показоно във видеото намиращо се
+          под текста.</p>
+
+        <!-- Integrated video -->
+
+        <div style="text-align: center;">
+          <video width="500" height="350" controls>
+            <source src="./Materalia/video/Exam1.mp4" type="video/mp4">
+            <source src="./Materalia/video/Exam1.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+      </section>
+
+      <!-- Slide 2 -->
+
+      <section>
+
+        <!-- Navigation bar 2 -->
+
+        <header role="banner">
+          <nav class="aligncenter">
+            <ul>
+
+              <li>
+                <a href="./input.html" rel="external" title="Начална страница">
+                  <img src="./Materalia/image/home_icon.png"> </img>
+                </a>
+              </li>
+
+              <li>
+                <a href="./choiseRole.html" rel="external" title="Избери роля">
+                  <img src="./Materalia/image/role_icon.png"> </img>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript: void(0);" rel="external" id="myBtn1" title="Информация">
+                  <img src="./Materalia/image/information_icon.png"> </img>
+                </a>
+
+                <div id="myModal1" class="modal">
+
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">Информация за страницата
+                    </h2>
+                    <p style="padding-left: 30px;">Текст за описание на помощ</p>
+                  </div>
+
+                </div>
+
+              </li>
+
+            </ul>
+          </nav>
+        </header>
+
+        <!-- Main part for section 2 -->
+
+        <a href="javascript: void(0);" id="BtnFinishTask"
+          style="text-align: center; margin-bottom: 20px; margin-right: 20px;">
+          <img style="height: 200px; width: 200px;" src="./Materalia/image/add_icon.png"> </img>
+        </a>
+
+        <!-- Popup success message -->
+
+        <div id="myModalFinishTask" class="modal">
+
+          <div style="text-align: center" class="modal-content">
+            <span class="closeFinishTask">&times;</span>
+            <img style="margin-top: 30px; height: 200px; width: 200px;" src="./Materalia/image/ok_icon.png"> </img>
+            <p style="margin-top: 60px;">Поздравления вие успешно отворихте нов блок.</p>
+            <p style="margin-bottom: 60px;">Може да преминете на следващото упражнение.</p>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- Slide 3 -->
+
+      <section style="text-align: center; padding-bottom: 500px;">
+
+        <!-- Navigation bar 3 -->
+
+        <header role="banner">
+          <nav class="aligncenter">
+            <ul>
+
+              <li>
+                <a href="./input.html" rel="external" title="Начална страница">
+                  <img src="./Materalia/image/home_icon.png"> </img>
+                </a>
+              </li>
+
+              <li>
+                <a href="./choiseRole.html" rel="external" title="Избери роля">
+                  <img src="./Materalia/image/role_icon.png"> </img>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript: void(0);" rel="external" id="myBtn2" title="Информация">
+                  <img src="./Materalia/image/information_icon.png"> </img>
+                </a>
+
+                <div id="myModal2" class="modal">
+
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">Информация за страницата
+                    </h2>
+                    <p style="padding-left: 30px;">Текст за описание на помощ</p>
+                  </div>
+
+                </div>
+
+              </li>
+
+            </ul>
+          </nav>
+        </header>
+
+        <!-- Main part for section 3 -->
+
+        <h1 style="padding-bottom: 30px;">Избиране на транзакция</h1>
+        <p>След като вече сте отворили нов блок (ако не сте няма да се визуализира такъв в следващата задача) той ще
+          бъде празен и ще трябва да изберете транзакциите (използвайки списъка с трнзакциите в бутона "mempool"), които
+          треябва да добавите в блока, както е показоно във видеото намиращо се под текста.</p>
+
+        <!-- Integrated video -->
+
+        <div style="text-align: center;">
+          <video controls>
+            <source src="./Materalia/video/Exam2.mp4" type="video/mp4">
+            <source src="./Materalia/video/Exam2.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+      </section>
+
+      <!-- Slide 4 -->
+
+      <section style="padding-bottom: 500px;">
+
+        <!-- Navigation bar 4 -->
+
+        <header role="banner">
+          <nav class="aligncenter">
+            <ul>
+
+              <li>
+                <a href="./input.html" rel="external" title="Начална страница">
+                  <img src="./Materalia/image/home_icon.png"> </img>
+                </a>
+              </li>
+
+              <li>
+                <a href="./choiseRole.html" rel="external" title="Избери роля">
+                  <img src="./Materalia/image/role_icon.png"> </img>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript: void(0);" rel="external" id="myBtn3" title="Информация">
+                  <img src="./Materalia/image/information_icon.png"> </img>
+                </a>
+
+                <div id="myModal3" class="modal">
+
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">Информация за страницата
+                    </h2>
+                    <p style="padding-left: 30px;">Текст за описание на помощ</p>
+                  </div>
+
+                </div>
+
+              </li>
+
+            </ul>
+          </nav>
+        </header>
+
+        <!-- Main part for section 4 -->
+
+        <!-- Drop down button and menu -->
+
+        <div class="dropdown">
+          <button id="disableBtn1" onclick="dropdownFunction()" class="button" disabled>Мempool</button>
+          <div id="myDropdown" class="dropdown-content">
+            <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+            <a onclick="move(event)" href="#">TNX1</a>
+            <a onclick="move(event)" href="#">TNX2</a>
+            <a onclick="move(event)" href="#">TNX3</a>
+            <a onclick="move(event)" href="#">TNX4</a>
+            <a onclick="move(event)" href="#">TNX5</a>
+            <a onclick="move(event)" href="#">TNX6</a>
+            <a onclick="move(event)" href="#">TNX7</a>
+            <a onclick="move(event)" href="#">TNX8</a>
+            <a onclick="move(event)" href="#">TNX9</a>
+            <a onclick="move(event)" href="#">TNX10</a>
+          </div>
+        </div>
+
+        <!-- Block form -->
+
+        <form id="Block1" class="formBorder formatForm" hidden>
+          <h1>Блок</h1>
+          <label for="numberBlock">Номер на блока</label>
+          <input onkeyup="Copydata();" id="furstNum" name="numberBlock" type="text" value="3" />
+          <label for="data">Данни</label>
+          <textarea id="one" onkeyup="Copydata();" name="data" rows="5" cols="30"></textarea>
+          <a id="BtnOK" class="button">Изпълни</a>
+
+          <!-- Popup success message -->
+
+          <div id="myModalFinishTask1" class="modal">
+
+            <div style="text-align: center" class="modal-content">
+              <span class="closeFinishTask">&times;</span>
+              <img style="margin-top: 30px; height: 200px; width: 200px;" src="./Materalia/image/ok_icon.png"> </img>
+              <p style="margin-top: 60px;">Поздравления вие успешно добавихте транзакции в новосъздаденя блок.</p>
+              <p style="margin-bottom: 60px;">Може да преминете на следващото упражнение.</p>
+            </div>
+
+          </div>
+
+        </form>
+
+      </section>
+
+      <!-- Slide 5 -->
+
+      <section style="text-align: center; padding-bottom: 500px;">
+
+        <!-- Navigation bar 5 -->
+
+        <header role="banner">
+          <nav class="aligncenter">
+            <ul>
+
+              <li>
+                <a href="./input.html" rel="external" title="Начална страница">
+                  <img src="./Materalia/image/home_icon.png"> </img>
+                </a>
+              </li>
+
+              <li>
+                <a href="./choiseRole.html" rel="external" title="Избери роля">
+                  <img src="./Materalia/image/role_icon.png"> </img>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript: void(0);" rel="external" id="myBtn4" title="Информация">
+                  <img src="./Materalia/image/information_icon.png"> </img>
+                </a>
+
+                <div id="myModal4" class="modal">
+
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">Информация за страницата
+                    </h2>
+                    <p style="padding-left: 30px;">Текст за описание на помощ</p>
+                  </div>
+
+                </div>
+
+              </li>
+
+            </ul>
+          </nav>
+        </header>
+
+        <!-- Main part for section 5 -->
+
+        <h1 style="padding-bottom: 30px;">Намиране на подходящо nonce число</h1>
+        <p>След като вече сте добавили успешно транзакциите в блока, те ще се появят автоматично в блок подобен на този
+          който вие създадохте (намиращ се в ляво на екрана), сега вашата задача е да намерите подходящо nonce число,
+          като то се генерира автоматично чрез натискането на бутона "Намери nonce" (този бутон ще остане заключен
+          докато не добавите поне една транзакция в блока) както е показоно във видеото намиращо се под текста. Вече
+          генерираните nonce-ве ще се появяват в списъка в дясно на екрана.</p>
+
+        <!-- Integrated video -->
+
+        <div style="text-align: center;">
+          <video controls>
+            <source src="./Materalia/video/Exam3.mp4" type="video/mp4">
+            <source src="./Materalia/video/Exam3.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+      </section>
+
+      <!-- Slide 6 -->
+
+      <section style="padding-bottom: 500px;">
+
+        <!-- Navigation bar 6 -->
+
+        <header role="banner">
+          <nav class="aligncenter">
+            <ul>
+
+              <li>
+                <a href="./input.html" rel="external" title="Начална страница">
+                  <img src="./Materalia/image/home_icon.png"> </img>
+                </a>
+              </li>
+
+              <li>
+                <a href="./choiseRole.html" rel="external" title="Избери роля">
+                  <img src="./Materalia/image/role_icon.png"> </img>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript: void(0);" rel="external" id="myBtn5" title="Информация">
+                  <img src="./Materalia/image/information_icon.png"> </img>
+                </a>
+
+                <div id="myModal5" class="modal">
+
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">Информация за страницата
+                    </h2>
+                    <p style="padding-left: 30px;">Текст за описание на помощ</p>
+                  </div>
+
+                </div>
+
+              </li>
+
+            </ul>
+          </nav>
+        </header>
+
+        <!-- Main part for section 6 -->
+
+        <form class="formatForm" style="margin-left: 50px; width: 50%;">
+          <h1>Блок</h1>
+          <label for="numberBlock">Номер на блока</label>
+          <input id="secondNum" name="numberBlock" type="text" value="3" readonly />
+          <label for="data">Данни</label>
+          <textarea id="two" name="data" rows="5" cols="30" readonly></textarea>
+        </form>
+
+        <button id="findNonceBtn" class="ramBtn button zoomIn" disabled>Намери nonce</button>
+
+        <textarea id="findNonce" class="ramTextarea" readonly></textarea>
+
+        <!-- Popup success message -->
+
+        <div id="myModalFinishTask2" class="modal">
+
+          <div style="text-align: center" class="modal-content">
+            <span class="closeFinishTask">&times;</span>
+            <img style="margin-top: 30px; height: 200px; width: 200px;" src="./Materalia/image/ok_icon.png"> </img>
+            <p style="margin-top: 60px;">Поздравления вие успешно намерихте подходящото nonce число и завършихте всички задачи за тази рола.</p>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- Slide 7 -->
+
+      <section style="text-align: center; padding-bottom: 500px;">
+
+        <!-- Navigation bar 7 -->
+
+        <header role="banner">
+          <nav class="aligncenter">
+            <ul>
+
+              <li>
+                <a href="./input.html" rel="external" title="Начална страница">
+                  <img src="./Materalia/image/home_icon.png"> </img>
+                </a>
+              </li>
+
+              <li>
+                <a href="./choiseRole.html" rel="external" title="Избери роля">
+                  <img src="./Materalia/image/role_icon.png"> </img>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript: void(0);" rel="external" id="myBtn6" title="Информация">
+                  <img src="./Materalia/image/information_icon.png"> </img>
+                </a>
+
+                <div id="myModal6" class="modal">
+
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">Информация за страницата
+                    </h2>
+                    <p style="padding-left: 30px;">Текст за описание на помощ</p>
+                  </div>
+
+                </div>
+
+              </li>
+
+            </ul>
+          </nav>
+        </header>
+
+        <!-- Main part for section 7 -->
+
+        <h1 style="padding-bottom: 30px;">Добавяне на блок</h1>
+        <p>Ако сте изпълнили всички задачи до момента, трябва вашия блок да се появи като последен в поредицата от
+          блоково. Ако той не присъства явно сте изпуснали някоя от задачите или не сте я направили правилно. </p>
+
+      </section>
+
+      <!-- Slide 8 -->
+
+      <section>
+
+        <!-- Navigation bar 8 -->
+
+        <header role="banner">
+          <nav class="aligncenter">
+            <ul>
+
+              <li>
+                <a href="./input.html" rel="external" title="Начална страница">
+                  <img src="./Materalia/image/home_icon.png"> </img>
+                </a>
+              </li>
+
+              <li>
+                <a href="./choiseRole.html" rel="external" title="Избери роля">
+                  <img src="./Materalia/image/role_icon.png"> </img>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript: void(0);" rel="external" id="myBtn7" title="Информация">
+                  <img src="./Materalia/image/information_icon.png"> </img>
+                </a>
+
+                <div id="myModal7" class="modal">
+
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">Информация за страницата
+                    </h2>
+                    <p style="padding-left: 30px;">Текст за описание на помощ</p>
+                  </div>
+
+                </div>
+
+              </li>
+
+            </ul>
+          </nav>
+        </header>
+
+        <!-- Main part for section 8 -->
+
+        <div class="wrap">
+          <ul class="flexblock">
+
+            <script>createBlock();</script>
+
+            <li>
+              <form id="lastBlock" style="padding: 20px; border: 1px solid black;" hidden>
+                <h1>Блок</h1>
+                <label for="numberBlock">Номер на блока</label>
+                <input id="lastval" name="numberBlock" type="text" readonly />
+                <label for="nonce">Nonce</label>
+                <input id="lastNonce" name="nonce" type="text" readonly />
+                <label for="data">Данни</label>
+                <textarea id="last" name="data" rows="5" cols="30" readonly></textarea>
+              </form>
+
+            </li>
+
+          </ul>
+        </div>
+
+      </section>
+
+    </article>
+  </main>
+
+  <script src="js/webslides.js"></script>
+  <script>
+    window.ws = new WebSlides();
+  </script>
+  <script type="text/javascript" src="js/popup.js"></script>
+  <script type="text/javascript" src="js/popupFinishTask.js"></script>
+  <script type="text/javascript" src="js/dropdown.js"></script>
+
+
+</body>
+
+</html>

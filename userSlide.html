@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Materalia/image/blockchain_logo.png" type="image/png">
+    <link rel="stylesheet" href="css/webslides.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/moveNetwork.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/createBlock.js"></script>
+    <title>Крипто потребител</title>
+</head>
+
+<body>
+
+    <main class="main">
+        <article id="webslides" class="horizontal">
+
+            <!-- Slide 1 -->
+
+            <section style="text-align: center; padding-bottom: 500px;">
+
+                <!-- Navigation bar 1 -->
+
+                <header role="banner">
+                    <nav class="aligncenter">
+                        <ul>
+
+                            <li>
+                                <a href="./input.html" rel="external" title="Начална страница">
+                                    <img src="./Materalia/image/home_icon.png"> </img>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./choiseRole.html" rel="external" title="Избери роля">
+                                    <img src="./Materalia/image/role_icon.png"> </img>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="javascript: void(0);" rel="external" id="myBtn" title="Информация">
+                                    <img src="./Materalia/image/information_icon.png"> </img>
+                                </a>
+
+                                <div id="myModal" class="modal">
+
+                                    <div class="modal-content">
+                                        <span class="close">&times;</span>
+                                        <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">
+                                            Информация за страницата
+                                        </h2>
+                                        <p style="padding-left: 30px;">Текст за описание на помощ</p>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </nav>
+                </header>
+
+                <!-- Main part for section 1 -->
+
+                <h1 style="padding-bottom: 30px;">Импортиране на портфейл</h1>
+                <p>Импортирането на портфейл става чрез въвеждането на определен брой тайни думи (в оказаното поле за
+                    въвеждане), както е показано във видеото намиращо се под текста, които ще са необхо след това в
+                    останалите упражнения. Те ще се използват за [...]</p>
+
+                <div style="text-align: center;">
+                    <video controls>
+                        <source src="./Materalia/video/Exam4.mp4" type="video/mp4">
+                        <source src="./Materalia/video/Exam4.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+            </section>
+
+            <!-- Slide 2 -->
+
+            <section style="text-align: center; padding-bottom: 550px;">
+
+                <!-- Navigation bar 2 -->
+
+                <header role="banner">
+                    <nav class="aligncenter">
+                        <ul>
+
+                            <li>
+                                <a href="./input.html" rel="external" title="Начална страница">
+                                    <img src="./Materalia/image/home_icon.png"> </img>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./choiseRole.html" rel="external" title="Избери роля">
+                                    <img src="./Materalia/image/role_icon.png"> </img>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="javascript: void(0);" rel="external" id="myBtn1" title="Информация">
+                                    <img src="./Materalia/image/information_icon.png"> </img>
+                                </a>
+
+                                <div id="myModal1" class="modal">
+
+                                    <div class="modal-content">
+                                        <span class="close">&times;</span>
+                                        <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">
+                                            Информация за страницата
+                                        </h2>
+                                        <p style="padding-left: 30px;">Текст за описание на помощ</p>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </nav>
+                </header>
+
+                <!-- Main part for section 2 -->
+
+                <img style="margin: 0px 40% 0px 41%;" src="./Materalia/image/MetaMask_Fox.png" width="270"
+                    height="270" />
+
+                <form style="margin-left: 25%; width: 50%;">
+                    <label for="secretWord">Тайна дума</label>
+                    <input id="secretWord" name="secretWord" type="text" />
+                    <label for="secretWordList">Списък с тайна дума</label>
+                    <textarea id="secretWordList" name="secretWordList" readonly></textarea>
+                    <button type="button" id="saveSecretWord" onclick="writeSecretWord();" style="width: 100%;"
+                        class="button">Запиши секретната дума</button>
+                </form>
+
+                <div id="myModalFinishTask" class="modal">
+
+                    <div style="text-align: center" class="modal-content">
+                        <span class="closeFinishTask">&times;</span>
+                        <a><img src="./Materalia/image/ok_icon.png" /></a>
+                        <p style="margin-top: 60px;">Поздравления вие успешно записахте всички секретни думи.</p>
+                        <p style="margin-bottom: 60px;">Може да преминете на следващото упражнение.</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Slide 3 -->
+
+            <section style="text-align: center; padding-bottom: 500px;">
+
+                <!-- Navigation bar 3 -->
+
+                <header role="banner">
+                    <nav class="aligncenter">
+                        <ul>
+
+                            <li>
+                                <a href="./input.html" rel="external" title="Начална страница">
+                                    <img src="./Materalia/image/home_icon.png"> </img>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./choiseRole.html" rel="external" title="Избери роля">
+                                    <img src="./Materalia/image/role_icon.png"> </img>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="javascript: void(0);" rel="external" id="myBtn2" title="Информация">
+                                    <img src="./Materalia/image/information_icon.png"> </img>
+                                </a>
+
+                                <div id="myModal2" class="modal">
+
+                                    <div class="modal-content">
+                                        <span class="close">&times;</span>
+                                        <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">
+                                            Информация за страницата
+                                        </h2>
+                                        <p style="padding-left: 30px;">Текст за описание на помощ</p>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </nav>
+                </header>
+
+                <!-- Main part for section 3 -->
+
+                <h1 style="padding-bottom: 30px;">Проверка и добавяне на мрежа</h1>
+                <p>След като сте добавили всички секретни думи е небходимо да проверите и добавите мрежа, както е
+                    показано във видеото намиращо се под текста. Тази задача може даа бъде изпълнена след като са
+                    изпълнени предищните задачи.</p>
+
+                <div style="text-align: center;">
+                    <video controls>
+                        <source src="./Materalia/video/Exam5.mp4" type="video/mp4">
+                        <source src="./Materalia/video/Exam5.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+            </section>
+
+            <!-- Slide 4 -->
+
+            <section style="padding-bottom: 500px;">
+
+                <!-- Navigation bar 4 -->
+
+                <header role="banner">
+                    <nav class="aligncenter">
+                        <ul>
+
+                            <li>
+                                <a href="./input.html" rel="external" title="Начална страница">
+                                    <img src="./Materalia/image/home_icon.png"> </img>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./choiseRole.html" rel="external" title="Избери роля">
+                                    <img src="./Materalia/image/role_icon.png"> </img>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="javascript: void(0);" rel="external" id="myBtn3" title="Информация">
+                                    <img src="./Materalia/image/information_icon.png"> </img>
+                                </a>
+
+                                <div id="myModal3" class="modal">
+
+                                    <div class="modal-content">
+                                        <span class="close">&times;</span>
+                                        <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">
+                                            Информация за страницата
+                                        </h2>
+                                        <p style="padding-left: 30px;">Текст за описание на помощ</p>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </nav>
+                </header>
+
+                <!-- Main part for section 4 -->
+
+                <div class="dropdown">
+                    <button id="disableBtn1" onclick="dropdownFunction()" class="button" disabled>Списък с
+                        мрежи</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                        <a id="N1" href="#">Мрежа 1</a>
+                        <a id="N2" href="#">Мрежа 2</a>
+                        <a id="N3" href="#">Мрежа 3</a>
+                        <a id="N4" href="#">Мрежа 4</a>
+                        <a id="N5" href="#">Мрежа 5</a>
+                        <a id="N6" href="#">Мрежа 6</a>
+                        <a id="N7" href="#">Мрежа 7</a>
+                        <a id="N8" href="#">Мрежа 8</a>
+                        <a id="N9" href="#">Мрежа 9</a>
+                        <a id="N10" href="#">Мрежа 10</a>
+                    </div>
+                </div>
+
+                <img style="margin: 0px 40% 0px 35%;" src="./Materalia/image/MetaMask_Fox.png" width="500"
+                    height="500" />
+
+                <div id="myModalFinishTask1" class="modal">
+
+                    <div style="text-align: center" class="modal-content">
+                        <span class="closeFinishTask">&times;</span>
+                        <a><img src="./Materalia/image/ok_icon.png" /></a>
+                        <p style="margin-top: 60px;">Поздравления вие успешно добавихте мрежа. Може да преминете на
+                            следващото упражнение като изберете бутона "Подписване на транзакции" той ще ви отведе в
+                            началото където трябва да изберете бутона
+                            "Mint NFT", който беше заключен в началото.</p>
+                        <a id="writeTransaction" style="margin-top: 20px; margin-bottom: 20px;" class="button"
+                            href="./user.html?free">Подписване на транзакции</a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </article>
+    </main>
+
+    <script src="js/webslides.js"></script>
+    <script>
+        window.ws = new WebSlides();
+    </script>
+    <script type="text/javascript" src="js/popup.js"></script>
+    <script type="text/javascript" src="js/secretWord.js"></script>
+    <script type="text/javascript" src="js/dropdown.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./Materalia/image/blockchain_logo.png" type="image/png">
+  <link rel="stylesheet" href="css/webslides.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/secretWord.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <title>Крипто потребител</title>
+</head>
+
+<body onload="freeButton();">
+
+  <div style="text-align: center; margin-top: 100px;">
+
+    <!-- Navigation bar -->
+
+    <header role="banner">
+      <nav class="aligncenter">
+        <ul>
+
+          <li>
+            <a href="./input.html" rel="external" title="Начална страница">
+              <img src="./Materalia/image/home_icon.png"> </img>
+            </a>
+          </li>
+
+          <li>
+            <a href="./choiseRole.html" rel="external" title="Избери роля">
+              <img src="./Materalia/image/role_icon.png"> </img>
+            </a>
+          </li>
+
+          <li>
+            <a href="javascript: void(0);" rel="external" id="myBtn" title="Информация">
+              <img src="./Materalia/image/information_icon.png"> </img>
+            </a>
+
+            <div id="myModal" class="modal">
+
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">Информация за страницата
+                </h2>
+                <p style="padding-left: 30px;">Текст за описание на помощ</p>
+              </div>
+
+            </div>
+
+          </li>
+
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main part -->
+
+    <a href="userSlide.html">
+      <img src="./Materalia/image/MetaMask_Fox.png" width="350" height="350" />
+    </a>
+    <h1 style="padding-bottom: 30px;">HelloChainNFT</h1>
+    <p>Въвеждащ текст</p>
+    <button id="mintNFT" onclick="location.href='./signingTransaction.html'" style="width: 25%;" class="button zoomIn" disabled>Mint NFT</button>
+
+  </div>
+
+  <script src="js/webslides.js"></script>
+  <script>
+    window.ws = new WebSlides();
+  </script>
+  <script type="text/javascript" src="js/popup.js"></script>
+
+</body>
+
+</html>
