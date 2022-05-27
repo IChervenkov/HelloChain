@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="bg">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +11,51 @@
     <title>Избиране на роля</title>
 
 </head>
+
 <body>
 
-    <script type="text/javascript" src="js/navbar.js"></script>
+    <!-- Navigation bar -->
 
-    <div class="wrap"  style="text-align: center; padding-bottom: 25px;">
+    <header role="banner">
+        <nav class="aligncenter">
+            <ul>
+
+                <li>
+                    <a href="./index.html" rel="external" title="Начална страница">
+                        <img src="./Materalia/image/home_icon.png"> </img>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./choiseRole.html" rel="external" title="Избери роля">
+                        <img src="./Materalia/image/role_icon.png"> </img>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);" rel="external" id="myBtn" title="Информация">
+                        <img src="./Materalia/image/information_icon.png"> </img>
+                    </a>
+
+                    <div id="myModal" class="modal">
+
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">Информация за
+                                страницата
+                            </h2>
+                            <p style="padding-left: 30px;">Текст за описание на помощ</p>
+                        </div>
+
+                    </div>
+
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="wrap" style="text-align: center; padding-bottom: 25px;">
         <h1 style="font-size:250%; padding: 100px 0px 25px 0px;"><strong>Роли</strong></h1>
         <p class="text-intro" style="padding: 0px 0px 25px 0px;">
             Въвеждащ текст
@@ -24,8 +65,9 @@
                 <li>
                     <a href="./minar.html">
                         <figure>
-                            <img style="width: 85%; margin-top: 10px; margin-bottom: 10px;" src="./Materalia/image/miner_icon.png" alt="">
-                            <figcaption >
+                            <img style="width: 85%; margin-top: 10px; margin-bottom: 10px;"
+                                src="./Materalia/image/miner_icon.png" alt="">
+                            <figcaption>
                                 <h2>Крипто копач</h2>
                             </figcaption>
                         </figure>
@@ -35,14 +77,15 @@
                 <li>
                     <a href="./user.html">
                         <figure>
-                            <img style="width: 85%; margin-top: 10px; margin-bottom: 10px;" src="./Materalia/image/user_icon.png" alt="">
+                            <img style="width: 85%; margin-top: 10px; margin-bottom: 10px;"
+                                src="./Materalia/image/user_icon.png" alt="">
                             <figcaption>
                                 <h2>Крипто потребител</h2>
                             </figcaption>
                         </figure>
                     </a>
                 </li>
-                
+
             </ul>
         </div>
     </div>
@@ -50,4 +93,5 @@
     <script type="text/javascript" src="js/popup.js"></script>
 
 </body>
+
 </html>
