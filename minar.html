@@ -280,9 +280,9 @@
         <form id="Block1" class="formBorder formatForm" hidden>
           <h1>Блок</h1>
           <label for="numberBlock">Номер на блока</label>
-          <input onkeyup="Copydata();" id="furstNum" name="numberBlock" type="text" value="3" />
+          <input onkeyup="Copydata();" id="furstNum" name="numberBlock" type="text" value="3" readonly/>
           <label for="data">Данни</label>
-          <textarea id="one" onkeyup="Copydata();" name="data" rows="5" cols="30"></textarea>
+          <textarea id="one" onkeyup="Copydata();" name="data" rows="5" cols="30" readonly></textarea>
           <a id="BtnOK" class="button">Изпълни</a>
 
           <!-- Popup success message -->
@@ -432,7 +432,8 @@
           <div style="text-align: center" class="modal-content">
             <span class="closeFinishTask">&times;</span>
             <img style="margin-top: 30px; height: 200px; width: 200px;" src="./Materalia/image/ok_icon.png"> </img>
-            <p style="margin-top: 60px;">Поздравления вие успешно намерихте подходящото nonce число и завършихте всички задачи за тази рола.</p>
+            <p style="margin-top: 60px;">Поздравления вие успешно намерихте подходящото nonce число и завършихте всички
+              задачи за тази рола.</p>
           </div>
 
         </div>
