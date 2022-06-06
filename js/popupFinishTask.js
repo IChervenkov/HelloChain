@@ -38,7 +38,7 @@ btnFinishTask2.onclick = function() {
   document.getElementById("findNonce").value += nonce + "\n";
   var lastVal = document.getElementById("secondNum").value;
 
-  if (nonce == 15) {
+  if (nonce >= 15) {
           modalFinishTask2.style.display = "block";
           document.getElementById("lastNonce").value = nonce;
           document.getElementById("lastval").value = lastVal;
